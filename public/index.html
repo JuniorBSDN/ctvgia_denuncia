@@ -115,7 +115,7 @@
     marca: document.querySelector("#marca").value.trim(),
     nome: document.querySelector("#reporterName").value.trim(),
     contato: document.querySelector("#reporterContact").value.trim(),
-    anonimo:document.querySelector("#anonymous").value.trin(),
+    anonimo: document.querySelector("#anonymous").checked,
   };
 
   fetch("/api/denuncias", {
